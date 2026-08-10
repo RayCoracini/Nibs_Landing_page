@@ -1,0 +1,25 @@
+nav{
+    background-color: #7a1a2a;
+    padding: 15px
+}
+
+body{
+    background-color: #eba9bd
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px
+}
+
+a{
+    color: #F7F3E7;
+    text-decoration: none;
+    font-family: Gloock, cursive
+}
+
+footer{
+    color: #f7f3e7
+}
