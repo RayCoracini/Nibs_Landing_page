@@ -1,10 +1,16 @@
 nav{
     background-color: #7a1a2a;
-    padding: 15px
+    padding: 5px
+}
+
+img{
+    background-color: #7a1a2a;
 }
 
 body{
-    background-color: #eba9bd
+    background-color: #eba9bd;
+    font-family: Montserrat;
+    color: #f7f3e7
 }
 
 ul{
@@ -18,6 +24,11 @@ a{
     color: #F7F3E7;
     text-decoration: none;
     font-family: Gloock, cursive
+}
+
+h2{
+    font-family:MonteCarlo, cursive;
+    color: #f7f3e7
 }
 
 footer{
