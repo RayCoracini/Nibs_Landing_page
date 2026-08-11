@@ -1,27 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Confeitaria" charset="UFT-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Nib's Atelier</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nib's Atelier | Confeitaria</title>
 </head>
 <body>
     <header>
-        <img src="Marca d'água logo e mascote NIBS-08.png" alt="Nib's Logo" wight="200" height="200" style="display: block; margin: 0 auto">
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#Sobre">Quem somos</a></li>
-                <li><a href="#Produtos">Produtos</a></li>
-                <li><a href="#Contato">Contato</a></li>
+            <a href="#" class="logo">NIB'S Atelier</a>
+            <ul class="menu">
+                <li><a href="#hero">Ínicio</a></li>
+                <li><a href="#sobre">História</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Home</h2>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <span class="hero-subtitle">
+                    CONFEITARIA ARTESANAL
+                </span>
+                <h1>Pequenos momentos,
+                    grandes memórias.
+                </h1>
+                <p>Uma experiência única em cada sabor,
+                    preparada com carinho e cuidado em cada detalhe.
+                </p>
+                <a href="#produtos" class="button">
+                    Conheça nossos produtos
+                </a>
+            </div>
+            <div class="hero-imagem">
+                <img src="images/hero-cookie.jpg" alt="Cookie artesanal da NIBS Atelier">
+            </div>
         </section>
-        <section>
+        <section id="sobre" class="sobre">
             <h2>Quem somos?</h2>
             <h4>Mais do que doces. Momentos feitos para serem lembrados.</h4>
             <p>A <b>NIBS</b> nasceu de uma paixão pela confeitaria e de um amor que atravessa gerações.</p>
@@ -30,15 +47,19 @@
             <p>Na NIBS, acreditamos que sabores também contam histórias. Por isso, buscamos transformar cada pedido em um momento único — seja para celebrar uma ocasião especial, presentear alguém querido ou simplesmente tornar o dia mais doce.</p>
             <p><b>NIBS</b>. Feita com carinho. Criada para criar memórias.</p>
         </section>
-        <section>
+        <section id="produtos" class="produtos">
             <h2>Produtos</h2>
         </section>
-        <section>
+        <section id="contato" class="contato">
             <h2>Contato</h2>
+            <a href="#" class="button">
+                Fazer uma encomenda
+            </a>
         </section>
     </main>
     <footer>
-        <p style="text-align: center;"> Nib's Atelier &copy <br><b>Todos os Direitos Reservados</b></br> </p>
+        <p><b>&copy 2026 Nib's Atelier</b><br>Todos os Direitos Reservados</p>
+        <p>by <a href="#RayCopage">RayCo Tech</a></p>
     </footer>
 </body>
 
