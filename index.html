@@ -9,13 +9,17 @@
 <body>
     <header>
         <nav>
-            <a href="#" class="logo">NIB'S Atelier</a>
+            <a href="#" class="logo">NIBS Atelier</a>
             <ul class="menu">
                 <li><a href="#hero">Ínicio</a></li>
                 <li><a href="#sobre">História</a></li>
                 <li><a href="#produtos">Produtos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span class="icone-menu">☰</span>
+                <span class="icone-fechar">✕</span> 
+            </button>
         </nav>
     </header>
     <main>
@@ -39,16 +43,58 @@
             </div>
         </section>
         <section id="sobre" class="sobre">
-            <h2>Quem somos?</h2>
-            <h4>Mais do que doces. Momentos feitos para serem lembrados.</h4>
-            <p>A <b>NIBS</b> nasceu de uma paixão pela confeitaria e de um amor que atravessa gerações.</p>
-            <p>O que começou como um hobby, feito com carinho e dedicação, ganhou propósito e se transformou em uma marca que tem no afeto a sua principal inspiração. Vitória, filha da idealizadora, tornou-se o símbolo da NIBS, representando aquilo que está presente em cada criação: cuidado, carinho, memória e amor.</p>
-            <p>Cada doce é preparado com atenção aos detalhes, ingredientes selecionados e o cuidado artesanal que torna cada experiência especial.</p>
-            <p>Na NIBS, acreditamos que sabores também contam histórias. Por isso, buscamos transformar cada pedido em um momento único — seja para celebrar uma ocasião especial, presentear alguém querido ou simplesmente tornar o dia mais doce.</p>
-            <p><b>NIBS</b>. Feita com carinho. Criada para criar memórias.</p>
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                <img src="images/historia.png" alt="Mascote da NIBS">
+                </div>
+                <div class="sobre-conteudo">    
+                    <span class="sobre-subtitulo">Nossa História</span>
+                    <h2>Mais do que doces. Momentos feitos para serem lembrados</h2>
+                    <p>A <b>NIBS</b> nasceu de uma paixão pela confeitaria e de um amor que atravessa gerações.</p>
+                    <p>O que começou como um hobby, feito com carinho e dedicação, ganhou propósito e se transformou em uma marca que tem no afeto a sua principal inspiração. Vitória, filha da idealizadora, tornou-se o símbolo da NIBS, representando aquilo que está presente em cada criação: cuidado, carinho, memória e amor.</p>
+                    <p>Cada doce é preparado com atenção aos detalhes, ingredientes selecionados e o cuidado artesanal que torna cada experiência especial.</p>
+                    <p>Na NIBS, acreditamos que sabores também contam histórias. Por isso, buscamos transformar cada pedido em um momento único — seja para celebrar uma ocasião especial, presentear alguém querido ou simplesmente tornar o dia mais doce.</p>
+                    <p><b>NIBS</b>. Feita com carinho. Criada para criar memórias.</p>
+                </div>    
+            </div>
         </section>
         <section id="produtos" class="produtos">
-            <h2>Produtos</h2>
+            <div class="produtos-container">
+                <div class="produtos-cabecalho">
+                    <span class="produtos-subtitulo">Nossas criações</span>
+                    <h2>Feitos para tornar cada momento especial.</h2>
+                    <p>Conheça algumas de nossas criações preparadas artesanalmente.</p>
+                </div>
+                <div class="produto-grid">
+                    <article class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="images/Cookies.jpg" alt="Cookie artesanal da NIBS Atelier">             
+                        </div>
+                        <div class="produto-info">
+                            <h3>Cookies</h3>
+                            <p>Cookies artesanais preparados com ingredientes selecionados</p>
+                        </div>
+                    </article>    
+                    <article class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="images/Brownies.jpg" alt="Brownies artesanais da NIBS Atelier">
+                        </div>
+                        <div class="produto-info">
+                            <h3>Brownies</h3>
+                            <p>Brownies preparados artesanalmente com textura intensa e sabor marcante.</p>
+                        </div>
+                    </article>     
+                    <article class="produto-card">
+                        <div class="produto-imagem">
+                            <img src="images/Ovos.jpg" alt="Ovos de páscoa artesanais da NIBS Atelier">
+                        </div>    
+                        <div class="produto-info">
+                            <h3>Ovos de Páscoa</h3>
+                            <p>Ovos de Páscoa preparados artesanalmente com produtos de qualidade e sabores irresistiveis.</p>
+                        </div>  
+                    </article>
+                </div>
+            </div>
         </section>
         <section id="contato" class="contato">
             <h2>Contato</h2>
@@ -61,6 +107,7 @@
         <p><b>&copy 2026 Nib's Atelier</b><br>Todos os Direitos Reservados</p>
         <p>by <a href="#RayCopage">RayCo Tech</a></p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
